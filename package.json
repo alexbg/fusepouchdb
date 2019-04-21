@@ -1,0 +1,25 @@
+{
+  "name": "fusepouchdb",
+  "version": "0.0.1",
+  "description": "Join pouchdb database with fuse library to full text search",
+  "main": "dist/main.min.js",
+  "dependencies": {
+    "fuse.js": "^3.4.4",
+    "pouchdb": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "jasmine": "^3.4.0",
+    "rollup": "^1.10.1"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "start": "node dist/main.min.js",
+    "rollup": "rollup --config",
+    "watch": "rollup --config --watch"
+  },
+  "author": "Alexbgdev",
+  "license": "ISC"
+}
