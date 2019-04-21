@@ -1,4 +1,4 @@
-import FusePouchDb from '../src/main';
+import FusePouchDb from '../dist/main.min';
 
 describe("FusePouchDB", function() {
   var fusePouchDb = new FusePouchDb('specdb');

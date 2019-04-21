@@ -1,5 +1,7 @@
-var PouchDB = require('pouchdb');
-var Fuse = require('fuse.js');
+// var PouchDB = require('pouchdb');
+// var Fuse = require('fuse.js');
+import PouchDB from 'pouchdb';
+import Fuse from 'fuse.js';
 
 class FusePouchDb extends PouchDB{
   constructor(options){
